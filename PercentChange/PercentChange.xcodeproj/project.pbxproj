@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0276692B29D0390800E31599 /* PercentChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276692A29D0390800E31599 /* PercentChangeApp.swift */; };
+		0276692D29D0390800E31599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276692C29D0390800E31599 /* ContentView.swift */; };
+		0276692F29D0390900E31599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0276692E29D0390900E31599 /* Assets.xcassets */; };
+		0276693229D0390900E31599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0276693129D0390900E31599 /* Preview Assets.xcassets */; };
+		0276693D29D0390900E31599 /* PercentChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276693C29D0390900E31599 /* PercentChangeTests.swift */; };
+		0276694729D0390900E31599 /* PercentChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276694629D0390900E31599 /* PercentChangeUITests.swift */; };
+		0276694929D0390900E31599 /* PercentChangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276694829D0390900E31599 /* PercentChangeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0276693929D0390900E31599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0276691F29D0390800E31599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0276692629D0390800E31599;
+			remoteInfo = PercentChange;
+		};
+		0276694329D0390900E31599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0276691F29D0390800E31599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0276692629D0390800E31599;
+			remoteInfo = PercentChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0276692729D0390800E31599 /* PercentChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0276692A29D0390800E31599 /* PercentChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeApp.swift; sourceTree = "<group>"; };
+		0276692C29D0390800E31599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0276692E29D0390900E31599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0276693129D0390900E31599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0276693329D0390900E31599 /* PercentChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PercentChange.entitlements; sourceTree = "<group>"; };
+		0276693829D0390900E31599 /* PercentChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PercentChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0276693C29D0390900E31599 /* PercentChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeTests.swift; sourceTree = "<group>"; };
+		0276694229D0390900E31599 /* PercentChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PercentChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0276694629D0390900E31599 /* PercentChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeUITests.swift; sourceTree = "<group>"; };
+		0276694829D0390900E31599 /* PercentChangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0276692429D0390800E31599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276693529D0390900E31599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276693F29D0390900E31599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0276691E29D0390800E31599 = {
+			isa = PBXGroup;
+			children = (
+				0276692929D0390800E31599 /* PercentChange */,
+				0276693B29D0390900E31599 /* PercentChangeTests */,
+				0276694529D0390900E31599 /* PercentChangeUITests */,
+				0276692829D0390800E31599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0276692829D0390800E31599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0276692729D0390800E31599 /* PercentChange.app */,
+				0276693829D0390900E31599 /* PercentChangeTests.xctest */,
+				0276694229D0390900E31599 /* PercentChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0276692929D0390800E31599 /* PercentChange */ = {
+			isa = PBXGroup;
+			children = (
+				0276692A29D0390800E31599 /* PercentChangeApp.swift */,
+				0276692C29D0390800E31599 /* ContentView.swift */,
+				0276692E29D0390900E31599 /* Assets.xcassets */,
+				0276693329D0390900E31599 /* PercentChange.entitlements */,
+				0276693029D0390900E31599 /* Preview Content */,
+			);
+			path = PercentChange;
+			sourceTree = "<group>";
+		};
+		0276693029D0390900E31599 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0276693129D0390900E31599 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0276693B29D0390900E31599 /* PercentChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0276693C29D0390900E31599 /* PercentChangeTests.swift */,
+			);
+			path = PercentChangeTests;
+			sourceTree = "<group>";
+		};
+		0276694529D0390900E31599 /* PercentChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0276694629D0390900E31599 /* PercentChangeUITests.swift */,
+				0276694829D0390900E31599 /* PercentChangeUITestsLaunchTests.swift */,
+			);
+			path = PercentChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0276692629D0390800E31599 /* PercentChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0276694C29D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChange" */;
+			buildPhases = (
+				0276692329D0390800E31599 /* Sources */,
+				0276692429D0390800E31599 /* Frameworks */,
+				0276692529D0390800E31599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PercentChange;
+			productName = PercentChange;
+			productReference = 0276692729D0390800E31599 /* PercentChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0276693729D0390900E31599 /* PercentChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0276694F29D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChangeTests" */;
+			buildPhases = (
+				0276693429D0390900E31599 /* Sources */,
+				0276693529D0390900E31599 /* Frameworks */,
+				0276693629D0390900E31599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0276693A29D0390900E31599 /* PBXTargetDependency */,
+			);
+			name = PercentChangeTests;
+			productName = PercentChangeTests;
+			productReference = 0276693829D0390900E31599 /* PercentChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0276694129D0390900E31599 /* PercentChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0276695229D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChangeUITests" */;
+			buildPhases = (
+				0276693E29D0390900E31599 /* Sources */,
+				0276693F29D0390900E31599 /* Frameworks */,
+				0276694029D0390900E31599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0276694429D0390900E31599 /* PBXTargetDependency */,
+			);
+			name = PercentChangeUITests;
+			productName = PercentChangeUITests;
+			productReference = 0276694229D0390900E31599 /* PercentChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0276691F29D0390800E31599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0276692629D0390800E31599 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0276693729D0390900E31599 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0276692629D0390800E31599;
+					};
+					0276694129D0390900E31599 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0276692629D0390800E31599;
+					};
+				};
+			};
+			buildConfigurationList = 0276692229D0390800E31599 /* Build configuration list for PBXProject "PercentChange" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0276691E29D0390800E31599;
+			productRefGroup = 0276692829D0390800E31599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0276692629D0390800E31599 /* PercentChange */,
+				0276693729D0390900E31599 /* PercentChangeTests */,
+				0276694129D0390900E31599 /* PercentChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0276692529D0390800E31599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276693229D0390900E31599 /* Preview Assets.xcassets in Resources */,
+				0276692F29D0390900E31599 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276693629D0390900E31599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276694029D0390900E31599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0276692329D0390800E31599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276692D29D0390800E31599 /* ContentView.swift in Sources */,
+				0276692B29D0390800E31599 /* PercentChangeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276693429D0390900E31599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276693D29D0390900E31599 /* PercentChangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0276693E29D0390900E31599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276694929D0390900E31599 /* PercentChangeUITestsLaunchTests.swift in Sources */,
+				0276694729D0390900E31599 /* PercentChangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0276693A29D0390900E31599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0276692629D0390800E31599 /* PercentChange */;
+			targetProxy = 0276693929D0390900E31599 /* PBXContainerItemProxy */;
+		};
+		0276694429D0390900E31599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0276692629D0390800E31599 /* PercentChange */;
+			targetProxy = 0276694329D0390900E31599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0276694A29D0390900E31599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0276694B29D0390900E31599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0276694D29D0390900E31599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PercentChange/PercentChange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PercentChange/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0276694E29D0390900E31599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PercentChange/PercentChange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PercentChange/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0276695029D0390900E31599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PercentChange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PercentChange";
+			};
+			name = Debug;
+		};
+		0276695129D0390900E31599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PercentChange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PercentChange";
+			};
+			name = Release;
+		};
+		0276695329D0390900E31599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PercentChange;
+			};
+			name = Debug;
+		};
+		0276695429D0390900E31599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.dave.PercentChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PercentChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0276692229D0390800E31599 /* Build configuration list for PBXProject "PercentChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276694A29D0390900E31599 /* Debug */,
+				0276694B29D0390900E31599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0276694C29D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276694D29D0390900E31599 /* Debug */,
+				0276694E29D0390900E31599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0276694F29D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276695029D0390900E31599 /* Debug */,
+				0276695129D0390900E31599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0276695229D0390900E31599 /* Build configuration list for PBXNativeTarget "PercentChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276695329D0390900E31599 /* Debug */,
+				0276695429D0390900E31599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0276691F29D0390800E31599 /* Project object */;
+}
